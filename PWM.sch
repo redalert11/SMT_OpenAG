@@ -1971,4 +1971,6 @@ Wire Wire Line
 Connection ~ 1400 6300
 Wire Wire Line
 	1400 6300 1400 7200
+Text Notes 4650 6200 0    50   ~ 0
+https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-DRV8701ERGET_C132049.pdf
 $EndSCHEMATC

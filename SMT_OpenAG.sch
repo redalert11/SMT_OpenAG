@@ -3,25 +3,20 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Sheet 1 2
+Title "SMT_OpenAG"
+Date "2020-12-20"
+Rev ".01"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R_Small R?
-U 1 1 5FDFEC75
-P 5000 3100
-F 0 "R?" H 5059 3146 50  0000 L CNN
-F 1 "R_Small" H 5059 3055 50  0000 L CNN
-F 2 "" H 5000 3100 50  0001 C CNN
-F 3 "~" H 5000 3100 50  0001 C CNN
-	1    5000 3100
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 2400 850  1300 800 
+U 5FDFE3AA
+F0 "PWM" 50
+F1 "PWM.sch" 50
+$EndSheet
 $EndSCHEMATC
